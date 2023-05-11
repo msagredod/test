@@ -21,3 +21,5 @@ rm ~/.ssh/id_rsa*
 ssh-keygen -t ed25519 -C "msagredo@cleveritgroup.com"
 
 este comentario lo voy a remover
+
+desaparacer del mapa
