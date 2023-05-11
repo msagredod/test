@@ -1,0 +1,23 @@
+ssh -T git@github.com
+
+git config --replace-all user.email "msagredo@cleveritgroup.com"
+
+GIT_SSH_COMMAND='ssh -i ~/.ssh/github -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no'
+
+esto muestra el usuario y hacia donde se está conectado en repositorio
+git config --get remote.origin.url
+
+
+
+Para configurar el acceso ssh
+
+Para checkear si existen ssh keys
+ls -al ~/.ssh
+
+rm ~/.ssh/id_rsa*
+
+
+
+ssh-keygen -t ed25519 -C "msagredo@cleveritgroup.com"
+
+este comentario lo voy a remover
