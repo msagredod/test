@@ -30,3 +30,6 @@ ssh-add ~/.ssh/id_ed25519
 
 Copy the SSH public key to your clipboard.
 cat ~/.ssh/id_ed25519.pub
+
+para hacer un alias: (ejemplo con switch")
+git config --global alias.sw "switch"
